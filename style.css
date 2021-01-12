@@ -86,15 +86,15 @@ section{
 }
 
 .step-content-mobile {
- 
   position:relative;
-  top:0px;
-  
+  border:solid red;
+  top:-20px;
 }
 
 
 .step-head{
-  position:absolute;
+  position:relative;
+  line-height: 25px;
   font-family: PingFangSC-Medium, sans-serif;
 }
 
@@ -117,8 +117,6 @@ section{
 
 .step-img-container{
   position:relative;
-  top:-27px;
-  border:solid red;
   display:flex;
   flex-direction:column;
   align-items:center;
