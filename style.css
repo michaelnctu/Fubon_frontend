@@ -1,4 +1,5 @@
 
+
 /* main header */
 header{
   position:fixed;
@@ -38,9 +39,11 @@ header{
 /* section */
 
 section{
-  position:relative;
+  position:absolute;
   height:8421px;
   top:56px;
+
+
 }
 
 .container{
@@ -54,7 +57,10 @@ section{
   left:-7px;
   width:100%;
   height:33px;
+  line-height:33px;
+  font-weight:bold;
   font-family: PingFangTC-Medium, sans-serif;
+
 
 }
 
@@ -83,28 +89,32 @@ section{
 .step-instruction{
   position:relative;
   width:100%;
-  height:117px;
+  height:auto;
+
 }
 
 .step-content-mobile {
   position:relative;
- 
-  top:-20px;
+  line-height:25px;
+
 }
 
 
 .step-head{
   position:relative;
+  font-weight:bold;
   font-family: PingFangSC-Medium, sans-serif;
+  line-height:25px;
 }
 
 .step6-item{
   position:relative;
+  line-height:25px;
   left:-23px;
+  width:100%;
 }
 
 .step6-item span{
- width:100%;
  margin-left:5px;
  font-size:18px;
  color:#505050;
@@ -128,16 +138,16 @@ section{
 }
 
 .step-img-container{
-  z-index:-1;
   position:relative;
   display:flex;
   flex-direction:column;
   align-items:center;
+
 }
+
 
 .step-img-container-6{
   position:relative;
-  top:40px;
   left:5px;
 }
 
@@ -164,7 +174,7 @@ section{
     position:fixed;
     z-index:999999;
     opacity:0.7;
-    right:30px;
+    right:50px;
     bottom:31px;
     display:none;
     width:50px;
@@ -181,7 +191,9 @@ section{
     background:#33e5be;
 }
 
-
+footer{
+  display:none;
+}
 
 /* 網頁版 */
 @media screen and (min-width: 414px ) {
@@ -231,6 +243,7 @@ section {
   top:84px;
   background: #EDFBFF 0% 0% no-repeat padding-box;
 
+
 }
 
 .container{
@@ -249,11 +262,11 @@ section {
   all:unset;
   position:relative;
   left:30px;
-
   width:108px;
   height:38px;
+  line-height:38px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight:bold
+  font-weight:bold;
 }
 
 .web-head::before{
@@ -291,6 +304,8 @@ section {
 .step-head{
   all:unset;
   position:relative;
+  line-height:25px;
+  font-weight:bold;
 }
 
 .step-head::before{
@@ -320,6 +335,7 @@ section {
   color:#505050;
   position:relative;
   letter-spacing:0.36px;
+  line-height:25px;
   font: normal normal normal 18px/25px PingFang TC;
 }
 
@@ -327,6 +343,7 @@ section {
   all:unset;
   position:absolute;
   top: 34px;
+  line-height:25px;
   
 }
 

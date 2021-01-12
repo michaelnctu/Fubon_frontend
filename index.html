@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
 
     <div class="navbar-icon-container">
       <img class="navbar-icon" src="btn_home.svg" alt="">
-      <div class="navbar-icon-text" style="margin-left:3px">
+      <div class="navbar-icon-text" style="margin-left:3px;line-height:19px;">
         回首頁
       </div>
     </div>
@@ -36,12 +37,12 @@
 
     <div class="container">
       <h1 class="mobile-head" style="color:
-                              rgba(0, 130, 155, 1); font-size:24px;">
+       rgba(0, 130, 155, 1); font-size:24px;">
         多張保單地址/電話E-mail變更
       </h1>
 
       <h1 class="web-head" style="color:
-                                            rgba(0, 130, 155, 1); font-size:24px;">
+        rgba(0, 130, 155, 1); font-size:24px;">
         變更流程
       </h1>
 
@@ -57,25 +58,23 @@
           rgba(245, 90, 8, 1); font-size:18px; display:block"> 步驟 1 :
           </span>
 
-          <p class="step-content-mobile" style=" font-size:18px;width:100%;color:#505050">由[手機e方便]，點選『保戶會員專區』
-            <br />
-            登入
+          <p class="step-content-mobile" style=" font-size:18px;width:100%;color:#505050">由[手機e方便]，點選『保戶會員專區』登入
           </p>
+
           <p class="step-content-web"
-            style=" font-size:18px; width:293px;color:#505050;font-family: PingFangTC-Regular">由【富邦人壽】，點選『保戶會
-            <br />
-            員專區』登入
+            style=" font-size:18px; width:293px;color:#505050;font-family: PingFangTC-Regular">由【富邦人壽】，點選『保戶會員專區』登入
           </p>
 
         </div>
 
-        <div class="step-img-container">
+        <div class="step-img-container" id="step-img-container-1">
 
           <img class="step-1-IMG1" src="./instructions/mobile/mobile01.png" alt="">
 
           <img class="step-1-IMG2" src="./instructions/mobile/mobile02.png" alt="">
 
         </div>
+        <br />
       </div>
 
     </div>
@@ -123,7 +122,7 @@
 
         </div>
 
-        <div class="step-img-container step-img-container-mobile">
+        <div class="step-img-container step-img-container-mobile" id="step-img-container3">
 
           <img class="step-3-IMG step-IMG" src="./instructions/mobile/mobile04.png" alt="">
 
@@ -202,12 +201,11 @@
           <span class="step-head" id="step-head" style="color:
   rgba(245, 90, 8, 1); font-size:18px; display:block"> 步驟 6 :
           </span>
-
           <p class="step-content-mobile step-content-common" style="font-size:18px;letter-spacing:0.36px;">
 
           <div class="step6-item" style="display:flex">
             <div
-              style="border-radius:5px;width:37px; height:19px;background-color: #F55A08;color:white; display:inline;float:left;text-align:center;">
+              style="border-radius:5px;width:37px; height:19px;line-height:19px;background-color: #F55A08;color:white; display:inline;float:left;text-align:center;">
               1
             </div>
             <span>請確認變更內容是否正確
@@ -216,7 +214,7 @@
           </div>
           <div class="step6-item" style="display:flex">
             <div
-              style="border-radius:5px;width:37px; height:19px;background-color: #F55A08;color:white; display:inline;float:left; text-align:center;">
+              style="border-radius:5px;width:37px; height:19px;line-height:19px;background-color: #F55A08;color:white; display:inline;float:left; text-align:center;">
               2
             </div>
             <span>
@@ -227,7 +225,7 @@
           </div>
           <div class="step6-item" style="display:flex">
             <div
-              style="border-radius:5px;width:37px; height:19px; background-color: #F55A08;color:white; display:inline;float:left; text-align: center;">
+              style="border-radius:5px;width:37px; height:19px; line-height:19px;background-color: #F55A08;color:white; display:inline;float:left; text-align: center;">
               3
             </div>
 
@@ -306,8 +304,8 @@
           </span>
 
           <p class="step-content-mobile step-content-common" style="font-size:18px;letter-spacing:0.36px;">
-            如同意傳送至其他保險公司，請選擇欲傳送之保險公司（可複選）<br>
-            ★僅提供有加入試辦之保險公司，請勾選有該公司保單之保險公司
+            如同意傳送至其他保險公司，請選擇欲傳送之保險公司（可複選）。<br>
+            ★僅提供有加入試辦之保險公司，請勾選有該公司保單之保險公司。
           </p>
 
         </div>
@@ -331,7 +329,7 @@
           </span>
 
           <p class="step-content-mobile step-content-common" style="font-size:18px;letter-spacing:0.36px;">
-            請審閱保全申請轉送暨個人資料告知事項，審閱完成後，請點選口本人已審閱蒐集，處理及個人資料告知事項，如取消轉送，請點選『不同意傳送』，可回至確認是否同意轉送頁重新選擇
+            請審閱保全申請轉送暨個人資料告知事項，審閱完成後，請點選口本人已審閱蒐集，處理及個人資料告知事項，如取消轉送，請點選『不同意傳送』，可回至確認是否同意轉送頁重新選擇。
           </p>
 
         </div>
@@ -355,7 +353,7 @@
           </span>
 
           <p class="step-content-mobile step-content-common" style="font-size:18px;letter-spacing:0.36px;">
-            輸入動態密碼，未收到動態密碼，可點選重新發送，動態密碼
+            輸入動態密碼，未收到動態密碼，可點選重新發送，動態密碼。
           </p>
 
         </div>
