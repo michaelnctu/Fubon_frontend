@@ -39,6 +39,7 @@ header{
 
 section{
   position:relative;
+  height:8421px;
   top:56px;
 }
 
@@ -87,7 +88,7 @@ section{
 
 .step-content-mobile {
   position:relative;
-  border:solid red;
+ 
   top:-20px;
 }
 
@@ -193,7 +194,7 @@ section {
   position:relative;
   top:84px;
   background: #EDFBFF 0% 0% no-repeat padding-box;
-  border:solid red;
+
 }
 
 .container{
@@ -210,7 +211,7 @@ section {
   all:unset;
   position:relative;
   left:30px;
-  border:solid red;
+ 
   width:108px;
   height:38px;
   font-family: 'Source Sans Pro'
@@ -249,7 +250,6 @@ section {
 .step-head{
   all:unset;
   position:relative;
-  border:solid green
 }
 
 .step-head::before{
@@ -273,7 +273,7 @@ section {
 .step-content-web{
   all:unset;
   position:absolute;
-  border:solid red;
+ 
   top: 34px;
   
 }
@@ -318,6 +318,99 @@ section {
   padding-bottom:21px
 }
 
+.step-4-IMG{
+  all:unset;
+  content:url(./instructions/web/web05.png);
+  width:100%;
+  height:456px;
+  padding-bottom:21px
+}
+
+.step-5-IMG{
+  all:unset;
+  content:url(./instructions/web/web06.png);
+  width:100%;
+  height:754px;
+  padding-bottom:21px
+}
+
+.step-6-IMG{
+  all:unset;
+  content:url(./instructions/web/web07.png);
+  width:100%;
+  height:679px;
+  padding-bottom:21px
+}
+
+.step-7-IMG{
+  all:unset;
+  content:url(./instructions/web/web04.png);
+  width:100%;
+  height:623px;
+  padding-bottom:21px
+}
+
+.step-8-IMG{
+  all:unset;
+  content:url(./instructions/web/web09.png);
+  width:100%;
+  height:452px;
+  padding-bottom:21px
+}
+
+.step-9-IMG{
+  all:unset;
+  content:url(./instructions/web/web10.png);
+  width:100%;
+  height:673px;
+  padding-bottom:21px
+}
+
+.step-10-IMG{
+  all:unset;
+  content:url(./instructions/web/web11.png);
+  width:100%;
+  height:452px;
+  padding-bottom:21px
+}
+
+.step-11-IMG{
+  all:unset;
+  content:url(./instructions/web/web12.png);
+  width:100%;
+  height:581px;
+  padding-bottom:21px
+}
+
+.step-12-IMG{
+  all:unset;
+  content:url(./instructions/web/web13.png);
+  width:100%;
+  height:668px;
+  padding-bottom:21px
+}
+
+footer{
+  position:absolute;
+  top:8505px;
+  background:transparent linear-gradient(90deg, #00829B 0%, #009583 100%) 0% 0% no-repeat padding-box;
+  width:100%;
+  height: 87px;
+  z-index:99;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  padding:20px;
+}
+
+.foooter-rights, .footer-browser{
+  color:white;
+  font-family: "SimHei";
+  font-size: 20px;
+  height:20px;
+  line-height:20px;
+}
 
 
 }
