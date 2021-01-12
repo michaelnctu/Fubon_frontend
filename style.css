@@ -54,7 +54,7 @@ section{
   width:100%;
   height:33px;
   font-family: PingFangTC-Medium, sans-serif;
-  border:solid red;
+
 }
 
 .web-head, .step-content-web{
@@ -86,15 +86,16 @@ section{
 }
 
 .step-content-mobile {
-  position:absolute;
-  border:solid red;
+ 
+  position:relative;
+  top:0px;
+  
 }
 
 
 .step-head{
   position:absolute;
-  border:solid red;
-  font-family: PingFangTC-Medium, sans-serif;
+  font-family: PingFangSC-Medium, sans-serif;
 }
 
 .step-content{
@@ -172,6 +173,8 @@ header{
 
 .navbar-icon-container{
   position:absolute;
+  display:flex;
+  align-items:center;
   left: 77%;
   top: 31px;
 }
@@ -185,7 +188,6 @@ header{
 all:unset;
 width: 48px;
 height: 16px;
-line-height:100%;
 
 }
 
@@ -213,7 +215,7 @@ section {
   border:solid red;
   width:108px;
   height:38px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro'
 }
 
 .web-head::before{
@@ -230,14 +232,16 @@ section {
   width:100%;
   grid-template-columns:
   45px 25% 67.5% 1fr;
-  border:solid blue;
 }
 
 .step-instruction{
   all:unset;
   display:flex;
   flex-direction:column;
-  grid-column: 2/3
+  grid-column: 2/3;
+  font-family: PingFangSC-Regular, sans-serif;
+  letter-spacing: 0.36px;
+
 }
 
 .step-content-mobile{
@@ -247,6 +251,7 @@ section {
 .step-head{
   all:unset;
   position:relative;
+  border:solid green
 }
 
 .step-head::before{
@@ -264,11 +269,14 @@ section {
 .step-content-common{
   all:unset;
   position:relative;
+  letter-spacing:0.36px;
 }
 
 .step-content-web{
   all:unset;
-  position:relative;
+  position:absolute;
+  border:solid red;
+  top: 34px;
   
 }
 
